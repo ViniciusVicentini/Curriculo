@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/resume.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- cabeçalho -->
+    <header>
+        <nav class="navbar navbar-expand-lg fundomenu">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#carrossel"><img src="img/logo.png" alt="Logo do site"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active minhafonte" aria-current="page" href="#carrossel">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link minhafonte" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link minhafonte" href="#competencias">Competências</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle minha_fonte" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Projetos
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item minhafonte" href="#">Teatro</a></li>
+                                <li><a class="dropdown-item minhafonte" href="#">Fotonovela</a></li>
+                                <li><a class="dropdown-item minhafonte" href="#">Cena de filme em inglês</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item minhafonte" href="#">Meu Primeiro site</a></li>
+                                <li><a class="dropdown-item minhafonte" href="#">Personagens que refiz no Photoshop</a>
+                                </li>
+                                <li><a class="dropdown-item minhafonte" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item minhafonte" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- carrossel -->
+    <section id="carrossel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/resized_1.png" class="d-block w-100" alt="Fundo Laranja com linhas laranjas e brancas no meio de cada lado, quase se tocam igual galhos de arvores">
+                    <div class="carousel-caption d-none d-md-block minha_fonte preto">
+                        <div class="grande-contorno">
+                            <p>Eu sou capaz de:</p>
+                        </div>
+                        <div class="medio-contorno">
+                            <p>Usar intêligencia artificial e entregar tarefas no prazo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/resized_2.png" class="d-block w-100" alt="Fundo laranja com o uso de formas geométricas e linhas laranjas e brancas, uma junçao de abstracionismo com o uso de linhas que se assemelham a galhos de árvore">
+                    <div class="carousel-caption d-none d-md-block minha_fonte preto">
+                        <div class="grande-neutro">
+                            <p>Eu sei programar:</p>
+                        </div>
+                        <div class="medio">
+                            <p>Html, CSS, e Python.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/resized_3.png" class="d-block w-100"
+                        alt="formas geometricas com as cores laranja e branco">
+                    <div class="carousel-caption d-none d-md-block minha_fonte preto">
+                        <div class="grande-contorno">
+                            <p>Edição</p>
+                        </div>
+                        <div class="medio-neutro">
+                            <p>Eu consigo usar o photoshop, e sei usar tanto o excel quanto o word</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- maior section para o site inteiro -->
+    <main class="my-4 container">
+        <!-- sobre mim -->
+        <section id="sobre">
+            <h1>Sobre mim</h1>
+        </section>
+
+        <!-- grid das competencias no mercado de trabalho -->
+        <section id="competencias">
+
+        </section>
+    </main>
+
+    <!-- rodapé do site -->
+    <footer>
+
+    </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
