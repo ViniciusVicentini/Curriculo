@@ -1,4 +1,4 @@
-img{
+.samir{
     width: 50px;
     height: auto;
 }
@@ -45,4 +45,9 @@ img{
 /* Garantindo prioridade sobre Bootstrap */
 .carousel-caption .minha_fonte {
     font-family: "Montserrat", sans-serif;
+}
+
+.img-fluid {
+    width: 700px;
+    height: 500px;
 }
