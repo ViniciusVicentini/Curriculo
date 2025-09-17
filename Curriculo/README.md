@@ -1,4 +1,4 @@
-# Curriculo_Bootstrap
-currículo feito com Bootstrap
 
-https://ViniciusVicentini.github.io/Curriculo-1
+currículo feito com o uso de bootstrap
+
+https://ViniciusVicentini.github.io/Curriculo/index.html
