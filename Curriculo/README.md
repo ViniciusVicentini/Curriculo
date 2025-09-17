@@ -1,4 +1,4 @@
 # Curriculo_Bootstrap
-Currículo feito com Bootstrap
+currículo feito com Bootstrap
 
-https://rafaelcostadelima.github.io/Curriculo_Bootstrap/
+https://ViniciusVicentini.github.io/Curriculo
