@@ -55,6 +55,7 @@
 .compe {
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 20pxpx;
 }
 
 .proj{
@@ -63,4 +64,19 @@
 
 .foot{
     text-align: center;
+    background-color: brown;
+    color: white;
+    margin-top: 20px;
+    padding: 1;
+    font-size: 0.5rem;
+}
+
+.corrigir {
+    margin-left: 100px;
+}
+
+.pedres {
+    width: 200px;
+    height: 230px;
+    align-self: center;
 }
