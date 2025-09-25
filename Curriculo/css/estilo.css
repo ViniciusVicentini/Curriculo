@@ -1,18 +1,22 @@
-.samir{
-    width: 50px;
+/* Logo */
+.samir {
+    max-width: 60px;
     height: auto;
 }
-.fundomenu{
+
+/* Menu */
+.fundomenu {
     background-color: rgba(233, 72, 32, 0.836);
 }
 
-.minha_fonte{
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400px;
-  font-style: normal;
+.minha_fonte {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* corrigido, antes estava 400px */
+    font-style: normal;
 }
 
+/* Cores de texto */
 .preto {
     color: rgba(0, 0, 0, 0.9);
 }
@@ -33,12 +37,15 @@
 }
 
 /* Tamanhos de texto */
-.grande, .grande-contorno, .grande-neutro {
+.grande,
+.grande-contorno,
+.grande-neutro {
     font-size: 2rem;
-    
 }
 
-.medio, .medio-contorno, .medio-neutro {
+.medio,
+.medio-contorno,
+.medio-neutro {
     font-size: 1.5rem;
 }
 
@@ -47,36 +54,59 @@
     font-family: "Montserrat", sans-serif;
 }
 
+/* Imagens */
 .img-fluid {
-    width: 700px;
-    height: 500px;
-}
-
-.compe {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20pxpx;
-}
-
-.proj{
-    text-align: center;
-}
-
-.foot{
-    text-align: center;
-    background-color: brown;
-    color: white;
-    margin-top: 20px;
-    padding: 1;
-    font-size: 0.5rem;
-}
-
-.corrigir {
-    margin-left: 100px;
+    max-width: 100%;
+    height: auto;
 }
 
 .pedres {
-    width: 200px;
-    height: 230px;
-    align-self: center;
+    max-width: 100%;
+    height: auto;
 }
+
+/* Competências */
+.compe {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px; /* corrigido */
+}
+
+/* Projetos */
+.proj {
+    text-align: center;
+}
+
+/* Rodapé */
+.foot {
+    text-align: center;
+    background-color: brown;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+/* Responsividade extra */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .foot {
+        font-size: 0.6rem;
+        padding: 0.5rem;
+    }
+}
+
+.projeto-img {
+    width: 100%;
+    height: 500px;      /* altura fixa para padronizar */
+    object-fit: cover;  /* corta a imagem mantendo proporção */
+    border-radius: 8px; /* opcional: cantos arredondados */
+}
+
+section {
+    padding: 0px; /* 60px em cima e embaixo, 0 nas laterais */
+}
+
